@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,700;1,400&display=swap');
+body {
+  background: #191919;
+  font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.zink-brand {
+  background: #f9f9f9;
+  margin: 40px auto 0;
+  height: 176px;
+  width: 256px;
+  padding: 56px 0 0;
+}
+.zink-brand h1 {
+  color: #191919;
+  font-weight: 200;
+  text-align: center;
+}
+.zink {
+  font-size: 6rem;
+  line-height: 2rem;
+  margin: 0;
+}
+a {
+  color: lightblue;
+}
+a:hover {
+  background: lightblue;
+  color: #191919;
+}
+h2, h3, h4, h5, h6, p, li {
+  color: #f9f9f9;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.6rem;
+  margin-top: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+.fa-brands {
+  color: #fff;
+}
+a.insta {
+  display: block;
+  font-size: 2.1rem;
+  margin: 0 auto;
+  width: 320px;
+}
+a.insta i {
+  color: lightblue;
+}
+a.insta:hover i {
+  color: #191919;
+}
+.insta-username {
+  display: inline-block;
+}
