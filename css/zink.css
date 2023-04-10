@@ -1,34 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,700;1,400&display=swap');
 body {
-  background: #191919;
+  background: #191919 !important;
   font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .zink-brand {
   background: #f9f9f9;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
   margin: 40px auto 0;
-  height: 176px;
-  width: 256px;
-  padding: 56px 0 0;
+  height: 128px;
+  width: 180px;
+  padding: 52px 0 0;
 }
 .zink-brand h1 {
   color: #191919;
+  font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
   font-weight: 200;
   text-align: center;
 }
 .zink {
-  font-size: 6rem;
+  font-size: 72px;
   line-height: 2rem;
   margin: 0;
 }
 a {
-  color: lightblue;
+  color: lightblue !important;
+  text-decoration: underline;
 }
 a:hover {
   background: lightblue;
-  color: #191919;
+  color: #191919 !important;
 }
 h2, h3, h4, h5, h6, p, li {
-  color: #f9f9f9;
+  color: #f9f9f9 !important;
+  font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
 }
 h2 {
@@ -51,7 +58,7 @@ ul {
 }
 ul li {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 4rem;
 }
 .fa-brands {
@@ -71,4 +78,9 @@ a.insta:hover i {
 }
 .insta-username {
   display: inline-block;
+}
+.instafeed {
+  display: block;
+  margin: 0 auto !important;
+  width: 542px;
 }
